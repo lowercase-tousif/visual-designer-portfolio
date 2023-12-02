@@ -1,0 +1,93 @@
+* {
+  font-family: "Epilogue", sans-serif;
+}
+
+/* Navbar */
+.nav-item > a {
+  color: black;
+  transition: color 0.5s ease;
+}
+.nav-item > a:hover {
+  color: lightsalmon;
+}
+/* Navbar */
+
+/* hero section */
+#hero-section {
+  height: 90vh;
+}
+.hero-sub-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.hero-heading {
+  font-size: 68px;
+  font-weight: 600;
+}
+.hero-about {
+  color: #2d2d2d;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 158.824% */
+}
+.hero-btn {
+  border: 0;
+  color: white;
+  background: #2d2d2d;
+  padding: 24px 64px;
+}
+/* hero section */
+
+/* Branding Section */
+.brand-container {
+  width: 60px;
+}
+/* Branding Section */
+
+/* card-section-1 */
+#card-section {
+  margin-top: 150px;
+}
+.card {
+  border: 0;
+}
+.custom-card-title {
+  font-size: 27px;
+  font-weight: 600;
+}
+.custom-card-text {
+  font-size: 17px;
+  font-style: normal;
+}
+/* card-section-1 */
+
+#testimonial-section,
+#footer-section {
+  padding: 42px 24px;
+}
+
+#testimonial-card {
+  background-color: #f3f3f3;
+  padding: 22px;
+}
+.testimonial-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer section */
+input[type="text"],
+input[type="email"] {
+  background-color: #f3f3f3;
+  border: 0;
+  padding: 20px;
+}
+.footer-header {
+  font-size: 32px;
+}
+.list-inline-item > i {
+  font-size: 25px;
+}
+/* footer section */
